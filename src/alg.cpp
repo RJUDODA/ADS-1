@@ -7,14 +7,12 @@ i = m + 1;
 else
 j = m;
 }
-
 if (arr[i] == value) {
 while (arr[j] == value) {
 c++;
 i++;
 }
 }
-
 if (c)
 return c;
 else
